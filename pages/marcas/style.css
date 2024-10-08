@@ -1,0 +1,29 @@
+
+.title-container{
+    display: flex;
+}
+.container{
+    /* background-image: url(../../imgs/background-shoes.jpg); */
+    background-size: contain;
+}
+.imgs-marca-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    width: 100%;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255, 194, 12);
+    border-radius: 20px;
+}.image img{
+    max-width: 80%;
+    max-height: 80%;
+}
